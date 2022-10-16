@@ -1,1 +1,6 @@
 # World_Weather_Analysis
+First I created 2,000 random latitudes and longitudes. Then those were matched to cities. Using those cities I made an API call to OpenWeather and created a weather database. From there users are able to input their search critieria (minimum and maximum temperature) to create a list. The weather database is filtered to show their suggested vacation destinations based on their preferred weather conditions. 
+
+Using Google's Places API I was able to locate hotels in the filtered cities from the users preferred weather criteria. Additionally I added a layer for an infobox which details the Hotel Name, City, Country, Current Weather and Max Temperature. 
+
+Honing in on one area that met the preferred weather criteria I created a Vacation Itinerary. This itinerary is a four city tour along the Brazilian Coast. With minimum temperatures of 75 degrees (farenheit) and maximum temperatures of 80 degrees. Utilizing Google's Directions API the Vacation Itinerary includes mapped driving directions as well as the helpful infobox layer with specific hotel information at each city.  
